@@ -1,4 +1,5 @@
-package main.java.com.diario.modelo;
+
+
 
 public class Responsavel {
     
@@ -6,6 +7,19 @@ public class Responsavel {
     private String email;
     private String telefone;
     
+
+    
+
+    public Responsavel() {
+
+    }
+
+    public Responsavel(String nome, String email, String telefone){
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+    }
+
 
     public void setNome (String nome) {
         this.nome = nome;

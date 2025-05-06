@@ -12,4 +12,7 @@ public class Historico {
       this.dataVacina = dataVacina;
       this.proximaVacina = proximaVacina;
      }
+
+
+     
 }
