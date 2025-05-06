@@ -7,6 +7,18 @@ public class PetShop{
     private String telefone;
     private String cnpj;
 
+        //--------------------------------------- construtor ----------------------------------------------//
+
+    public PetShop(){
+    }
+
+    public PetShop( String nome, String email, String telefone, String cnpj ){
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+        this.cnpj = cnpj;
+    }
+    
     //---------------------------------------Encapsulamento nome ----------------------------------------------//
     public String getNome(){
         return this.nome;

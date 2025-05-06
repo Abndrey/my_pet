@@ -7,6 +7,18 @@ public class Agenda{
     private String checkUp;
     private String consultaMarcada;
 
+    //--------------------------------------- construtor ----------------------------------------------//
+    public Agenda(){
+
+    }
+
+    public Agenda( String tosa, String banho, String checkUp, String consultaMarcada ){
+        this.tosa = tosa;
+        this.banho = banho;
+        this.checkUp = checkUp;
+        this.consultaMarcada = consultaMarcada;
+    }
+
     //---------------------------------------Encapsulamento gostosa ----------------------------------------------//
     public String getTosa(){
         return this.tosa;

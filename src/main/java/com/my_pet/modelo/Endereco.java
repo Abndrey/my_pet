@@ -5,7 +5,16 @@ public class Endereco {
     private String num;
     private String bairro;
 
+    //--------------------------------------- construtor ----------------------------------------------//
 
+    public Endereco() {
+    }
+
+    public Endereco(String rua, String num, String bairro) {
+        this.rua = rua;
+        this.num = num;
+        this.bairro = bairro;
+    }
 
 //---------------------------------------Encapsulamento rua ----------------------------------------------//
 public void setRua(String rua) {
